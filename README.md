@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# React Front-End Developer Assessment
 
-## Getting Started
+This repository contains a collection of React components and features demonstrating various front-end development skills. The project includes multiple tasks showcasing different aspects of React development, from basic component creation to advanced state management.
 
-First, run the development server:
+## 🌐 Live Demo
 
+You can view the live demo of this application at: https://test-fe-assessment.vercel.app/. All task links have been shown on the homepage.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (version 16.x or higher)
+- npm (version 8.x or higher)
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/react-frontend-assessment.git
+cd react-frontend-assessment
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Start the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The application will be available at `http://localhost:3000`
 
-## Learn More
+## 📋 Features
 
-To learn more about Next.js, take a look at the following resources:
+The application includes the following components and features:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Todo List Application**
+   - Add, edit, and delete todos
+   - Mark todos as complete/incomplete
+   - Persistent storage using localStorage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Search Filter Component**
+   - Dynamic search functionality
+   - Case-insensitive filtering
+   - Debounced search implementation
 
-## Deploy on Vercel
+3. **Responsive Navbar**
+   - Mobile-friendly design
+   - Hamburger menu for mobile views
+   - Smooth transitions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **API Integration**
+   - Data fetching with loading states
+   - Error handling
+   - Modal view for detailed information
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. **Counter with Custom Hook**
+   - Increment/decrement functionality
+   - Reset capability
+   - Persistent state
+
+6. **Card Component**
+   - Reusable design
+   - Dynamic content through props
+   - Hover effects
+
+7. **Form with Validation**
+   - Input validation
+   - Error messaging
+   - Submission handling
+     
+8. **Cart with Redux**
+
+## 🙋‍♂️ Author
+
+Hieu Nguyen
